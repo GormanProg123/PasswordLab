@@ -30,7 +30,8 @@ Built with **React + TypeScript + Vite + Charts**, the app evaluates password st
 ![chrome_lxPU4rDLPf](https://github.com/user-attachments/assets/8842a91f-b6ef-4d98-ab67-79026652b332)
 
 
-📦 Requirements
+## 📦 Requirements
+
 To run the project locally:
 
 # Clone the repository
@@ -42,3 +43,4 @@ npm install
 
 # Start the development server
 npm run dev
+
