@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# 🔐 Password Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Password Lab is a web-based project for generating and verifying the security and strength of passwords.  
+Built with **React + TypeScript + Vite + Charts**, the app evaluates password strength using **zxcvbn** (a password strength estimator), custom internal rules (like minimum length), and even simulates **dictionary attacks**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- **Password Strength Analysis** using:
+  - `zxcvbn`
+  - Entropy
+  - Time to Crack
+  - log10(guesses)
+  - Estimated Hacking Time
+  - Internal Recommendations (e.g., too short, missing symbols, etc.)
+- **Password Generator** with customizable options:
+  - Password length
+  - Include numbers
+  - Include symbols
+  - Include uppercase letters
+- **Dictionary Attack Simulation**:
+  - Enter a password and check if it matches common words
+  - Get real-time recommendations to avoid weak choices
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Screenshots
+![chrome_wQsPnTFWNY](https://github.com/user-attachments/assets/b9333df1-e579-42aa-a3d5-1aa6a2701c7a)
+![chrome_kmZw7k08mM](https://github.com/user-attachments/assets/3fc270fd-04bd-4ec1-b677-15b3da33375b)
+![chrome_CvEPQonwEp](https://github.com/user-attachments/assets/532c5982-24da-4b97-bdf6-69a631ce9e9c)
+![chrome_lxPU4rDLPf](https://github.com/user-attachments/assets/8842a91f-b6ef-4d98-ab67-79026652b332)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+📦 Requirements
+To run the project locally:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Clone the repository
+git clone https://github.com/your-username/password-lab.git
+cd password-lab
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
