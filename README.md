@@ -1,4 +1,5 @@
-# 🔐 Password Lab
+# ![image](https://github.com/user-attachments/assets/c620fda9-2a43-40b6-843b-0b6cd43f64e6)
+ Password Lab
 
 ## Description
 
@@ -35,7 +36,7 @@ Built with **React + TypeScript + Vite + Charts**, the app evaluates password st
 To run the project locally:
 
 # Clone the repository
-git clone https://github.com/your-username/password-lab.git
+git clone [https://github.com/your-username/password-lab.git](https://github.com/GormanProg123/PasswordLab.git)
 cd password-lab
 
 # Install dependencies
