@@ -1,4 +1,4 @@
-# ![image](https://github.com/user-attachments/assets/c620fda9-2a43-40b6-843b-0b6cd43f64e6)
+# ![imgonline-com-ua-Resize-Ye8fCx8kLZQf](https://github.com/user-attachments/assets/0960114a-b6e7-4974-a0ff-8429e9ff5686)
  Password Lab
 
 ## Description
