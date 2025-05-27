@@ -1,5 +1,4 @@
-# ![imgonline-com-ua-Resize-Ye8fCx8kLZQf](https://github.com/user-attachments/assets/0960114a-b6e7-4974-a0ff-8429e9ff5686)
- Password Lab
+# ![imgonline-com-ua-Resize-Ye8fCx8kLZQf](https://github.com/user-attachments/assets/0960114a-b6e7-4974-a0ff-8429e9ff5686) Password Lab
 
 ## Description
 
